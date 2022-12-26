@@ -22,7 +22,8 @@ namespace BinarySearchTree
     }
     class BinaryTree
     {
-
+        public Node root;
+        
         static void Main(string[] args)
         {
         }
