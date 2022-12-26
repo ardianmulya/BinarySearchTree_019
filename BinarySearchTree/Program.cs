@@ -97,6 +97,10 @@ namespace BinarySearchTree
                 inorder(ptr.rchild);
             }
         }
+        public void postorder(Node ptr)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
