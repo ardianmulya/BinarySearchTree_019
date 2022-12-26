@@ -31,7 +31,7 @@ namespace BinarySearchTree
 
         public void insert (string element)
         {
-
+            Node temp, parent = null, currentnode = null;
         }
         static void Main(string[] args)
         {
