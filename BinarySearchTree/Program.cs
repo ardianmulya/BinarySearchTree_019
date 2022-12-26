@@ -31,7 +31,30 @@ namespace BinarySearchTree
 
         public void insert (string element)
         {
-            Node temp, parent = null, currentnode = null;
+            Node tmp, parent = null, currentnode = null;
+            find(element, ref parent, ref currentnode);
+            if (currentnode != null)
+            {
+                Console.WriteLine("Duplicate words not allowed");
+                return;
+            }
+            else
+            {
+                tmp = new Node(element, null, null);
+                if (parent == null)
+                {
+                    root = tmp;
+                }
+                else if (string.Compare(element, parent.info) < 0)
+                {
+                    if ( string.Compare(element, parent.info) < 0)
+                        parent.lchild = tmp;
+                }
+                else
+                {
+                    parent.rchild = tmp;
+                }
+            }
         }
         static void Main(string[] args)
         {
