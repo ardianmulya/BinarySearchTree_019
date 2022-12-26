@@ -56,6 +56,10 @@ namespace BinarySearchTree
                 }
             }
         }
+        public void find(string element,ref Node parent,ref Node currentnode)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
