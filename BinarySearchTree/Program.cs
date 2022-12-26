@@ -113,6 +113,7 @@ namespace BinarySearchTree
         }
         static void Main(string[] args)
         {
+            BinaryTree x = new BinaryTree(); 
         }
     }
 }
