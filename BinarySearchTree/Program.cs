@@ -6,22 +6,23 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTree
 {
-    class Program
+    class Node
     {
-        class Node
+        public string info;
+        public Node lchild;
+        public Node rchild;
+
+        public Node(string i, Node l, Node r)
         {
-            public string info;
-            public Node lchild;
-            public Node rchild;
+            info = i;
+            lchild = l;
+            rchild = r;
 
-            public Node (string i, Node l, Node r)
-            {
-                info = i;
-                lchild = l;
-                rchild = r;
-
-            }
         }
+    }
+    class BinaryTree
+    {
+
         static void Main(string[] args)
         {
         }
