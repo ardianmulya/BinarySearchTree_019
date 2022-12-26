@@ -43,7 +43,7 @@ namespace BinarySearchTree
                 tmp = new Node(element, null, null);
                 if (parent == null)
                 {
-                    root = tmp;
+                    ROOT = tmp;
                 }
                 else if (string.Compare(element, parent.info) < 0)
                 {
