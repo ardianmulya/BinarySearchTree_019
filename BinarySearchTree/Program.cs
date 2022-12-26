@@ -83,6 +83,10 @@ namespace BinarySearchTree
                 inorder(ptr.rchild);
             }
         }
+        public void preorder(Node ptr)
+        {
+            
+        }
         static void Main(string[] args)
         {
         }
