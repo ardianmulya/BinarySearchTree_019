@@ -24,6 +24,10 @@ namespace BinarySearchTree
     {
         public Node root;
         
+        public BinaryTree()
+        {
+            root = null;
+        }
         static void Main(string[] args)
         {
         }
