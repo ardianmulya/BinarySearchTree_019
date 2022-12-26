@@ -99,7 +99,17 @@ namespace BinarySearchTree
         }
         public void postorder(Node ptr)
         {
-
+            if (ROOT == null)
+            {
+                Console.WriteLine("Tree is Empty");
+                return;
+            }
+            if (ptr != null)
+            {
+                inorder(ptr.lchild);
+                inorder(ptr.rchild);
+                Console.WriteLine(ptr.info + " ");
+            }
         }
         static void Main(string[] args)
         {
