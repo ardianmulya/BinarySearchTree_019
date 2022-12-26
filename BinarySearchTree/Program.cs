@@ -28,6 +28,11 @@ namespace BinarySearchTree
         {
             root = null;
         }
+
+        public void insert (string element)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
